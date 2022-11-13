@@ -1,0 +1,2 @@
+2022-11-12 21:35:33.337 [info] [perf] Render performance baseline is 46ms
+2022-11-12 21:35:37.629 [error] RequestService#request (browser) - error https://open-vsx.org/vscode/gallery/extensionquery {"name":"Canceled"}

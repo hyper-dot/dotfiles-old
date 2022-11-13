@@ -1,0 +1,12 @@
+2022-11-13 08:55:56.653 [info] Extension host with pid 4788 started
+2022-11-13 08:55:56.653 [info] Skipping acquiring lock for /home/linux/.config/Code - OSS/User/workspaceStorage/7ae2e9f086d406b3e02e773510c5120a.
+2022-11-13 08:55:56.867 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2022-11-13 08:55:56.907 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2022-11-13 08:55:56.907 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2022-11-13 08:55:57.001 [info] Eager extensions activated
+2022-11-13 08:55:57.082 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2022-11-13 08:55:57.082 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+2022-11-13 08:55:57.082 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2022-11-13 08:55:57.083 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2022-11-13 09:05:36.531 [info] Extension host terminating: received terminate message from renderer
+2022-11-13 09:05:36.544 [info] Extension host with pid 4788 exiting with code 0

@@ -1,0 +1,7 @@
+2022-11-12 21:35:31.629 [info] Starting worker process with pid 16568 (type: fileWatcher, window: 1).
+2022-11-12 21:35:43.644 [info] Getting Manifest... jdinhlife.gruvbox
+2022-11-12 21:35:43.861 [info] Installing extension: jdinhlife.gruvbox
+2022-11-12 21:35:49.181 [info] Extracted extension to /home/linux/.vscode-oss/extensions/.4782dd55-8f05-4814-8535-32d0f31e581d: jdinhlife.gruvbox
+2022-11-12 21:35:49.192 [info] Renamed to /home/linux/.vscode-oss/extensions/jdinhlife.gruvbox-1.8.0-universal
+2022-11-12 21:35:49.195 [info] Extracting completed. jdinhlife.gruvbox
+2022-11-12 21:35:49.198 [info] Extension installed successfully: jdinhlife.gruvbox

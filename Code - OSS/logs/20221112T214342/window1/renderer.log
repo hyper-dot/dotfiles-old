@@ -1,0 +1,2 @@
+2022-11-12 21:43:47.782 [info] [perf] Render performance baseline is 43ms
+2022-11-12 21:43:54.615 [error] Error while registering log channel file:///home/linux/.config/Code%20-%20OSS/logs/20221112T214342/userDataSync.log Timed out while waiting for file to be created
