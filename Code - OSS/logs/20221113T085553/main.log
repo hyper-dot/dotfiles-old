@@ -1,4 +1,0 @@
-2022-11-13 08:55:53.769 [info] update#ctor - updates are disabled as there is no update URL
-2022-11-13 08:55:55.839 [info] Starting extension host with pid 4788 (fork() took 12 ms).
-2022-11-13 09:05:36.551 [info] Waiting for extension host with pid 4788 to exit.
-2022-11-13 09:05:36.584 [info] Extension host with pid 4788 exited with code: 0, signal: null.
