@@ -20,7 +20,7 @@ menus/
 rclone/
 mimeapps.list       
 Electron/                      
-'MongoDB Compass'/   
+**/MongoDB Compass/
 simple-update-notifier/
 EOS-greeter.conf                 
 mpv/                
