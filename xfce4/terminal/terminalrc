@@ -37,5 +37,5 @@ RunCustomCommand=TRUE
 CustomCommand=fish
 ColorForeground=#f2f2e5e5bcbc
 ColorCursor=#d65bc4cd8ca1
-ColorPalette=#323230302f2f;#cccc24241d1d;#989897971a1a;#d7d799992121;#454585858888;#b1b162628686;#68689d9d6a6a;#f2f2e5e5bcbc;#1d1d20202121;#fbfb49493434;#b8b8bbbb2626;#fafabdbd2f2f;#8383a5a59898;#d3d386869b9b;#8e8ec0c07c7c;#fffff1f1c6c6
+ColorPalette=rgb(92,57,40);rgb(204,36,29);rgb(152,151,26);rgb(215,153,33);rgb(69,133,136);rgb(177,98,134);rgb(104,157,106);rgb(242,229,188);rgb(29,32,33);rgb(251,73,52);rgb(184,187,38);rgb(250,189,47);rgb(131,165,152);rgb(211,134,155);rgb(142,192,124);rgb(255,241,198)
 
