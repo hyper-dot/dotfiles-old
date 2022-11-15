@@ -1,6 +1,0 @@
-2022-11-14 21:57:00.105 [info] update#ctor - updates are disabled as there is no update URL
-2022-11-14 21:57:01.944 [info] Starting extension host with pid 7630 (fork() took 11 ms).
-2022-11-14 21:59:23.138 [info] Starting extension host with pid 8012 (fork() took 12 ms).
-2022-11-14 21:59:24.250 [info] Extension host with pid 8012 exited with code: 0, signal: null.
-2022-11-14 23:14:01.081 [info] Waiting for extension host with pid 7630 to exit.
-2022-11-14 23:14:01.087 [info] Extension host with pid 7630 exited with code: 0, signal: null.

@@ -1,3 +1,0 @@
-2022-11-14 21:57:04.114 [info] Starting worker process with pid 7675 (type: fileWatcher, window: 1).
-2022-11-14 21:59:23.150 [info] Starting worker process with pid 8013 (type: fileWatcher, window: 3).
-2022-11-14 21:59:24.255 [info] Worker process with pid 8013 terminated normally (type: fileWatcher, window: 3).
