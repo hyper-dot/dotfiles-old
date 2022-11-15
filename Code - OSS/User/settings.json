@@ -1,0 +1,6 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}

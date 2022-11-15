@@ -1,0 +1,96 @@
+["INFO" - 8:20:12 PM] Extension Name: esbenp.prettier-vscode.
+["INFO" - 8:20:12 PM] Extension Version: 9.9.0.
+["INFO" - 8:20:33 PM] Formatting file:///home/linux/react-blog-app/src/post/Post.jsx
+["INFO" - 8:20:33 PM] Using ignore file (if present) at /home/linux/react-blog-app/.prettierignore
+["INFO" - 8:20:33 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 8:20:33 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 8:20:33 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "singleAttributePerLine": false,
+  "bracketSameLine": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/linux/react-blog-app/src/post/Post.jsx",
+  "parser": "babel"
+}
+["ERROR" - 8:20:33 PM] Error formatting document.
+["ERROR" - 8:20:33 PM] Unexpected token, expected "," (7:1)
+   5 |     </div>
+   6 |
+>  7 | };
+     | ^
+   8 |
+   9 | export default Post;
+  10 |
+SyntaxError: Unexpected token, expected "," (7:1)
+   5 |     </div>
+   6 |
+>  7 | };
+     | ^
+   8 |
+   9 | export default Post;
+  10 |
+	at p (/home/linux/.vscode-oss/extensions/esbenp.prettier-vscode-9.9.0-universal/node_modules/prettier/parser-babel.js:22:1038)
+	at d (/home/linux/.vscode-oss/extensions/esbenp.prettier-vscode-9.9.0-universal/node_modules/prettier/parser-babel.js:22:1271)
+	at Object.parse (/home/linux/.vscode-oss/extensions/esbenp.prettier-vscode-9.9.0-universal/node_modules/prettier/parser-babel.js:27:50424)
+	at Object.parse (/home/linux/.vscode-oss/extensions/esbenp.prettier-vscode-9.9.0-universal/node_modules/prettier/index.js:7334:23)
+	at coreFormat (/home/linux/.vscode-oss/extensions/esbenp.prettier-vscode-9.9.0-universal/node_modules/prettier/index.js:8645:18)
+	at formatWithCursor2 (/home/linux/.vscode-oss/extensions/esbenp.prettier-vscode-9.9.0-universal/node_modules/prettier/index.js:8837:18)
+	at /home/linux/.vscode-oss/extensions/esbenp.prettier-vscode-9.9.0-universal/node_modules/prettier/index.js:37229:12
+	at Object.format (/home/linux/.vscode-oss/extensions/esbenp.prettier-vscode-9.9.0-universal/node_modules/prettier/index.js:37243:12)
+	at t.default.format (/home/linux/.vscode-oss/extensions/esbenp.prettier-vscode-9.9.0-universal/dist/extension.js:1:14565)
+	at async t.PrettierEditProvider.provideEdits (/home/linux/.vscode-oss/extensions/esbenp.prettier-vscode-9.9.0-universal/dist/extension.js:1:11259)
+	at async B.provideDocumentFormattingEdits (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:94:45902)
+["INFO" - 8:20:33 PM] Formatting completed in 241ms.
+["INFO" - 8:20:50 PM] Formatting file:///home/linux/react-blog-app/src/post/Post.jsx
+["INFO" - 8:20:50 PM] Using ignore file (if present) at /home/linux/react-blog-app/.prettierignore
+["INFO" - 8:20:50 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 8:20:50 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 8:20:50 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "singleAttributePerLine": false,
+  "bracketSameLine": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/linux/react-blog-app/src/post/Post.jsx",
+  "parser": "babel"
+}
+["INFO" - 8:20:50 PM] Formatting completed in 30ms.

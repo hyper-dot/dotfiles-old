@@ -1,0 +1,29 @@
+2022-11-14 20:16:52.301 [info] Starting worker process with pid 3591 (type: fileWatcher, window: 1).
+2022-11-14 20:17:03.023 [info] Worker process with pid 3591 terminated normally (type: fileWatcher, window: 1).
+2022-11-14 20:17:04.103 [info] Starting worker process with pid 3683 (type: fileWatcher, window: 1).
+2022-11-14 20:17:24.251 [info] Getting Manifest... cweijan.cweijan-personal-material-icon-theme
+2022-11-14 20:17:24.470 [info] Installing extension: cweijan.cweijan-personal-material-icon-theme
+2022-11-14 20:17:30.941 [info] Extracted extension to /home/linux/.vscode-oss/extensions/.0940cf8c-afb3-4b96-99fd-8c9e0b8e9258: cweijan.cweijan-personal-material-icon-theme
+2022-11-14 20:17:30.953 [info] Renamed to /home/linux/.vscode-oss/extensions/cweijan.cweijan-personal-material-icon-theme-5.0.0-universal
+2022-11-14 20:17:30.958 [info] Extracting completed. cweijan.cweijan-personal-material-icon-theme
+2022-11-14 20:17:30.960 [info] Extension installed successfully: cweijan.cweijan-personal-material-icon-theme
+2022-11-14 20:18:22.651 [info] Worker process with pid 3683 terminated normally (type: fileWatcher, window: 1).
+2022-11-14 20:18:24.543 [info] Starting worker process with pid 3782 (type: fileWatcher, window: 1).
+2022-11-14 20:19:13.622 [info] Getting Manifest... asvetliakov.vscode-neovim
+2022-11-14 20:19:13.848 [info] Installing extension: asvetliakov.vscode-neovim
+2022-11-14 20:19:33.828 [info] Extracted extension to /home/linux/.vscode-oss/extensions/.e45198e4-fe3e-441d-a452-6fbd1a842837: asvetliakov.vscode-neovim
+2022-11-14 20:19:33.840 [info] Renamed to /home/linux/.vscode-oss/extensions/asvetliakov.vscode-neovim-0.0.94-universal
+2022-11-14 20:19:33.843 [info] Extracting completed. asvetliakov.vscode-neovim
+2022-11-14 20:19:33.846 [info] Extension installed successfully: asvetliakov.vscode-neovim
+2022-11-14 20:19:59.325 [info] Getting Manifest... esbenp.prettier-vscode
+2022-11-14 20:19:59.547 [info] Installing extension: esbenp.prettier-vscode
+2022-11-14 20:20:12.083 [info] Extracted extension to /home/linux/.vscode-oss/extensions/.55612824-0875-444e-a788-2013ad15d033: esbenp.prettier-vscode
+2022-11-14 20:20:12.095 [info] Renamed to /home/linux/.vscode-oss/extensions/esbenp.prettier-vscode-9.9.0-universal
+2022-11-14 20:20:12.101 [info] Extracting completed. esbenp.prettier-vscode
+2022-11-14 20:20:12.102 [info] Extension installed successfully: esbenp.prettier-vscode
+2022-11-14 20:22:08.500 [info] Getting Manifest... wscats.omi-snippets
+2022-11-14 20:22:08.735 [info] Installing extension: wscats.omi-snippets
+2022-11-14 20:24:22.939 [info] Extracted extension to /home/linux/.vscode-oss/extensions/.eb11852f-beae-4b51-af3d-f622ac8ea64a: wscats.omi-snippets
+2022-11-14 20:24:22.964 [info] Renamed to /home/linux/.vscode-oss/extensions/wscats.omi-snippets-2.2.8-universal
+2022-11-14 20:24:22.967 [info] Extracting completed. wscats.omi-snippets
+2022-11-14 20:24:22.970 [info] Extension installed successfully: wscats.omi-snippets

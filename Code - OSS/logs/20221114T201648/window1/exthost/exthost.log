@@ -1,0 +1,52 @@
+2022-11-14 20:16:50.933 [info] Extension host with pid 3522 started
+2022-11-14 20:16:50.933 [info] Skipping acquiring lock for /home/linux/.config/Code - OSS/User/workspaceStorage/19b8ad38962fc0052a5ac03f42c4840d.
+2022-11-14 20:16:51.047 [info] ExtensionService#_doActivateExtension vscode.media-preview, startup: false, activationEvent: 'onCustomEditor:imagePreview.previewEditor'
+2022-11-14 20:16:51.047 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2022-11-14 20:16:51.101 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2022-11-14 20:16:51.101 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2022-11-14 20:16:51.204 [info] Eager extensions activated
+2022-11-14 20:16:51.352 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2022-11-14 20:16:51.352 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+2022-11-14 20:16:51.353 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2022-11-14 20:16:51.353 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2022-11-14 20:17:02.998 [info] Extension host terminating: received terminate message from renderer
+2022-11-14 20:17:03.011 [info] Extension host with pid 3522 exiting with code 0
+2022-11-14 20:17:05.155 [info] Extension host with pid 3682 started
+2022-11-14 20:17:05.155 [info] Skipping acquiring lock for /home/linux/.config/Code - OSS/User/workspaceStorage/7ae2e9f086d406b3e02e773510c5120a.
+2022-11-14 20:17:05.370 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2022-11-14 20:17:05.446 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2022-11-14 20:17:05.527 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2022-11-14 20:17:05.643 [info] Eager extensions activated
+2022-11-14 20:17:05.648 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2022-11-14 20:17:05.649 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+2022-11-14 20:17:05.649 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2022-11-14 20:17:24.433 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2022-11-14 20:17:24.469 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2022-11-14 20:17:31.499 [info] ExtensionService#_doActivateExtension cweijan.cweijan-personal-material-icon-theme, startup: false, activationEvent: '*'
+2022-11-14 20:17:46.222 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2022-11-14 20:17:46.222 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2022-11-14 20:17:46.223 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2022-11-14 20:17:50.305 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2022-11-14 20:18:22.601 [info] Extension host terminating: received terminate message from renderer
+2022-11-14 20:18:22.628 [info] Extension host with pid 3682 exiting with code 0
+2022-11-14 20:18:25.861 [info] Extension host with pid 3781 started
+2022-11-14 20:18:25.861 [info] Skipping acquiring lock for /home/linux/.config/Code - OSS/User/workspaceStorage/440ffda4d8417c1266c6f785d6064e06.
+2022-11-14 20:18:25.939 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2022-11-14 20:18:25.940 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2022-11-14 20:18:26.231 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2022-11-14 20:18:26.307 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2022-11-14 20:18:26.309 [info] ExtensionService#_doActivateExtension cweijan.cweijan-personal-material-icon-theme, startup: false, activationEvent: '*'
+2022-11-14 20:18:26.310 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2022-11-14 20:18:26.421 [info] Eager extensions activated
+2022-11-14 20:18:26.446 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2022-11-14 20:18:26.447 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+2022-11-14 20:18:26.447 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2022-11-14 20:18:30.517 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2022-11-14 20:18:31.674 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascriptreact'
+2022-11-14 20:19:34.065 [info] ExtensionService#_doActivateExtension asvetliakov.vscode-neovim, startup: false, activationEvent: '*'
+2022-11-14 20:20:12.325 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2022-11-14 20:20:33.275 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2022-11-14 20:20:33.275 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2022-11-14 20:24:23.358 [info] ExtensionService#_doActivateExtension Wscats.omi-snippets, startup: false, activationEvent: '*'
+2022-11-14 20:59:12.302 [info] Extension host terminating: received terminate message from renderer
+2022-11-14 20:59:12.343 [info] Extension host with pid 3781 exiting with code 0

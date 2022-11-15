@@ -9,7 +9,7 @@ an executable
 -- THESE ARE EXAMPLE CONFIGS FEEL FREE TO CHANGE TO WHATEVER YOU WANT
 
 -- general
-require("lvim.lsp.manager").setup("emmet_ls") -- For Html/Css emmets
+require("lvim.lsp.manager").setup("emmet_ls") --for html and css
 lvim.log.level = "warn"
 vim.opt.shell = "/bin/bash"
 lvim.transparent_window = true
