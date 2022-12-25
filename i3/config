@@ -1,29 +1,12 @@
-# This file is a modified version based on default i3-config-wizard config
-# source is available here:
-# https://raw.githubusercontent.com/endeavouros-team/endeavouros-i3wm-setup/master/.config/i3/config
-# Maintainer: joekamprad [joekamprad@endeavouros.com]
-# https://endeavouros.com
-#
-# iconic font icon search: https://fontawesome.com/v4.7/cheatsheet/
-#
-# --> to update this run the following command (will backup existing setup file)
-# wget --backups=1 https://raw.githubusercontent.com/endeavouros-team/endeavouros-i3wm-setup/main/.config/i3/config -P ~/.config/i3/
-#
-# Endeavouros-i3 config file
-# Source for complete framework of our i3 config and theming here: https://github.com/endeavouros-team/endeavouros-i3wm-setup
-# EndeavourOS wiki holds some Information also: https://discovery.endeavouros.com/window-tiling-managers/i3-wm/
-# Please see http://i3wm.org/docs/userguide.html for the official i3 reference!
-
 #######################
 # config starts here: #
 #######################
 # set wallpaper
 exec --no-startup-id  nitrogen --restore
+# set bar
 exec --no-startup-id  sh ~/.config/polybar/launch.sh --hack
-exec --no-startup-id redshift -l 35:34 -t 3500:3500
-exec --no-startup-id mongod --dbpath ~/database 
+# Enable picom screen compositor
 exec --no-startup-id picom 
-#exec --no-startup-id feh --bg-fill /usr/share/endeavouros/backgrounds/endeavouros_i3.png
 
 
 # Font for window titles. Will also be used by the bar unless a different font
@@ -130,28 +113,28 @@ bindsym $mod+Shift+9    move container to workspace  $ws9
 bindsym $mod+Shift+0    move container to workspace  $ws10
 
 # move focused container to workspace with numpad keys
-bindcode $mod+Shift+Mod2+87 	move container to workspace  $ws1
-bindcode $mod+Shift+Mod2+88 	move container to workspace  $ws2
-bindcode $mod+Shift+Mod2+89 	move container to workspace  $ws3
-bindcode $mod+Shift+Mod2+83 	move container to workspace  $ws4
-bindcode $mod+Shift+Mod2+84 	move container to workspace  $ws5
-bindcode $mod+Shift+Mod2+85 	move container to workspace  $ws6
-bindcode $mod+Shift+Mod2+79 	move container to workspace  $ws7
-bindcode $mod+Shift+Mod2+80 	move container to workspace  $ws8
-bindcode $mod+Shift+Mod2+81 	move container to workspace  $ws9
-bindcode $mod+Shift+Mod2+90 	move container to workspace  $ws10
+bindcode $mod+Shift+Mod2+87     move container to workspace  $ws1
+bindcode $mod+Shift+Mod2+88     move container to workspace  $ws2
+bindcode $mod+Shift+Mod2+89     move container to workspace  $ws3
+bindcode $mod+Shift+Mod2+83     move container to workspace  $ws4
+bindcode $mod+Shift+Mod2+84     move container to workspace  $ws5
+bindcode $mod+Shift+Mod2+85     move container to workspace  $ws6
+bindcode $mod+Shift+Mod2+79     move container to workspace  $ws7
+bindcode $mod+Shift+Mod2+80     move container to workspace  $ws8
+bindcode $mod+Shift+Mod2+81     move container to workspace  $ws9
+bindcode $mod+Shift+Mod2+90     move container to workspace  $ws10
 
 # move focused container to workspace with numpad keys
-bindcode $mod+Shift+87 	 move container to workspace  $ws1
-bindcode $mod+Shift+88 	 move container to workspace  $ws2
-bindcode $mod+Shift+89 	 move container to workspace  $ws3
-bindcode $mod+Shift+83 	 move container to workspace  $ws4
-bindcode $mod+Shift+84 	 move container to workspace  $ws5
-bindcode $mod+Shift+85 	 move container to workspace  $ws6
-bindcode $mod+Shift+79 	 move container to workspace  $ws7
-bindcode $mod+Shift+80 	 move container to workspace  $ws8
-bindcode $mod+Shift+81 	 move container to workspace  $ws9
-bindcode $mod+Shift+90 	 move container to workspace  $ws10
+bindcode $mod+Shift+87      move container to workspace  $ws1
+bindcode $mod+Shift+88      move container to workspace  $ws2
+bindcode $mod+Shift+89      move container to workspace  $ws3
+bindcode $mod+Shift+83      move container to workspace  $ws4
+bindcode $mod+Shift+84      move container to workspace  $ws5
+bindcode $mod+Shift+85      move container to workspace  $ws6
+bindcode $mod+Shift+79      move container to workspace  $ws7
+bindcode $mod+Shift+80      move container to workspace  $ws8
+bindcode $mod+Shift+81      move container to workspace  $ws9
+bindcode $mod+Shift+90      move container to workspace  $ws10
 
 # resize window (you can also use the mouse for that):
 mode "resize" {
@@ -186,15 +169,6 @@ bindsym $mod+r mode "resize"
 bindsym $mod+Return exec xfce4-terminal 
 # kill focused window
 bindsym $mod+q kill
-
-# exit-menu
-#bindsym $mod+Shift+e exec ~/.config/i3/scripts/powermenu
-
-# Lock the system
-# lock with a picture:
-#bindsym $mod+l exec i3lock -i  ~/.config/i3/i3-lock-screen.png -p default|win -t
-# lock by blurring the screen:
-# bindsym $mod+l exec ~/.config/i3/scripts/blur-lock
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
@@ -245,8 +219,6 @@ bindsym $mod+f fullscreen toggle
 
 # change container layout (stacked, tabbed, toggle split)
 bindsym $mod+s exec flameshot gui 
-#bindsym $mod+g layout tabbed
-#bindsym $mod+e layout toggle split
 
 # toggle tiling / floating
 bindsym $mod+Shift+space floating toggle
@@ -319,46 +291,21 @@ set $ws10 "10"
 # bind program to workspace and focus to them on startup:
 assign [class="Xfce4-terminal"] $ws1
 assign [class="Brave-browser"] $ws2
+assign [class="code-oss"] $ws3
 assign [class="Postman"] $ws2
 assign [class="Code"] $ws3
 assign [class="vlc"] $ws4
 assign [class="Thunar"] $ws5
 
 # automatic set focus new window if it opens on another workspace then the current:
+
 for_window [class=Xfce4-terminal] focus
-for_window [class=Brave-browser] focus
 for_window [class=Thunar] focus
+for_window [class=Brave-browser] focus
 for_window [class=Thunderbird] focus
-for_window [class=Code] focus
+for_window [class=code-oss] focus
 for_window [class=vlc] focus
 
-##############
-# compositor #
-##############
-
-# transparency
-# uncomment one of them to be used (picom package is installed per default)
-# options could need changes, related to used GPU and drivers.
-# to find the right setting consult the archwiki or ask at the forum.
-#
-# xcompmgr: https://wiki.archlinux.org/title/Xcompmgr
-# manpage: https://man.archlinux.org/man/xcompmgr.1.en
-#exec --no-startup-id xcompmgr -C -n &
-# or an more specialized config like this:
-#exec --no-startup-id xcompmgr -c -C -t-5 -l-5 -r4.2 -o.55 &
-#
-# or:
-#
-# picom: https://wiki.archlinux.org/title/Picom
-# manpage: https://man.archlinux.org/man/picom.1.en
-# The default configuration is available in /etc/xdg/picom.conf 
-# For modifications, it can be copied to ~/.config/picom/picom.conf or ~/.config/picom.conf
-#
-# using default config 
-#exec_always --no-startup-id picom -b
-#
-# for custom config:
-#exec_always --no-startup-id picom --config  ~/.config/picom.conf
 
 #############################################
 # autostart applications/services on login: #
@@ -379,7 +326,7 @@ exec --no-startup-id dex --autostart --environment i3
 #exec --no-startup-id sh /usr/share/endeavouros/scripts/welcome --startdelay=3 
 
 # num lock activated
-#exec --no-startup-id numlockx on
+exec --no-startup-id numlockx on
 
 # configure multiple keyboard layouts and hotkey to switch (Alt+CAPSLOCK in this example)
 #exec --no-startup-id setxkbmap -layout 'us,sk' -variant altgr-intl,qwerty -option 'grp:alt_caps_toggle'
@@ -468,33 +415,28 @@ for_window [class=".*"] move position center
 ######################################
 
 # Define colors variables:
-set $darkbluetrans	#08052be6
-set $darkblue		#08052b
-set $lightblue		#5294e2
-set $urgentred		#e53935
-set $white		#ffffff
-set $black		#000000
-set $purple		#e345ff
-set $darkgrey		#383c4a
-set $grey #878787	
-set $mediumgrey		#8b8b8b
-set $yellowbrown	#e1b700
+set $darkbluetrans    #08052be6
+set $darkblue        #08052b
+set $lightblue        #5294e2
+set $urgentred        #e53935
+set $white        #ffffff
+set $black        #000000
+set $purple        #e345ff
+set $darkgrey        #383c4a
+set $grey #878787    
+set $mediumgrey        #8b8b8b
+set $yellowbrown    #e1b700
 set $cyan #00dede
 set $warm #ebdbb2
 
 # define colors for windows:
-#class		            	border		bground		text		indicator	child_border
-client.focused		    	$lightblue	$darkblue	$white		$warm   	$warm
-client.unfocused	    	$darkblue	$darkblue	$grey		$grey	$grey
-client.focused_inactive		$darkblutrans	$darkblue	$grey	$grey		$grey
-client.urgent		    	$urgentred	$urgentred	$white		$yellowbrown	$yellowbrown
+#class                        border        bground        text        indicator    child_border
+client.focused                $lightblue    $darkblue    $white        $cyan       $cyan
+client.unfocused            $darkblue    $darkblue    $grey        $grey    $grey
+client.focused_inactive        $darkblutrans    $darkblue    $grey    $grey        $grey
+client.urgent                $urgentred    $urgentred    $white        $yellowbrown    $yellowbrown
 
 # Application menu handled by rofi: #
 #####################################
-
-## rofi bindings fancy application menu ($mod+d /F9 optional disabled)
-
 bindsym $mod+d exec sh ~/.config/polybar/hack/scripts/launcher.sh
-
-#copy config files to mega 
-exec rclone copy ~/.config/ rozanpoudelMEGA:/dotfiles --include "{i3/**,dunst/**,fish/**,lvim/**,rofi/**}" 
+bindsym $mod+Shift+e exec sh ~/.config/polybar/hack/scripts/launcher.sh
