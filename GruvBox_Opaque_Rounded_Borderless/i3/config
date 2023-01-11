@@ -7,8 +7,8 @@ exec --no-startup-id  nitrogen --restore
 exec --no-startup-id redshift -l 35:34 -t 4000:4000
 exec --no-startup-id mongod --dbpath ~/database 
 exec --no-startup-id picom 
+exec --no-startup-id greenclip daemon
 #exec --no-startup-id feh --bg-fill /usr/share/endeavouros/backgrounds/endeavouros_i3.png
-
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
@@ -51,7 +51,6 @@ gaps outer 0
 # show window title bars (not officially supported with i3gaps)
 #default_border pixel 1
 for_window [class="^.*"] border pixel 1
-for_window [title="File Operation Progress"] floating enable
 
 # window title alignment
 #title_align center
@@ -299,11 +298,12 @@ set $ws10 "10"
 assign [class="Xfce4-terminal"] $ws1
 assign [class="Alacritty"] $ws1
 assign [class="Google-chrome"] $ws2
-assign [class="code-oss"] $ws3
 assign [class="Postman"] $ws2
 assign [class="Code"] $ws3
+assign [class="code-oss"] $ws3
 assign [class="vlc"] $ws4
 assign [class="Thunar"] $ws5
+assign [title="GNU Image Manipulation Program"] $ws5
 
 # automatic set focus new window if it opens on another workspace then the current:
 for_window [class=Xfce4-terminal] focus
@@ -314,7 +314,7 @@ for_window [class=Brave-browser] focus
 for_window [class=Thunderbird] focus
 for_window [class=Code] focus
 for_window [class=vlc] focus
-
+for_window [title="GNU Image Manipulation Program"] focus
 
 #############################################
 # autostart applications/services on login: #
@@ -338,7 +338,7 @@ exec --no-startup-id dex --autostart --environment i3
 #exec --no-startup-id numlockx on
 
 # configure multiple keyboard layouts and hotkey to switch (Alt+CAPSLOCK in this example)
-#exec --no-startup-id setxkbmap -layout 'us,sk' -variant altgr-intl,qwerty -option 'grp:alt_caps_toggle'
+#exec --no-startup-id setxkbmap -layout 'us,sk' -variltgr-intl,qwerty -option 'grp:alt_caps_toggle'
 
 # start conky:
 #exec_always --no-startup-id conky
@@ -399,6 +399,7 @@ exec_always --no-startup-id autotiling
 for_window [class="Yad" instance="yad"] floating enable
 for_window [class="Galculator" instance="galculator"] floating enable
 for_window [class="Blueberry.py" instance="blueberry.py"] floating enable
+for_window [title="File Operation Progress"] floating enable
 
 # set floating (nontiling) for special apps
 for_window [class="Xsane" instance="xsane"] floating enable
@@ -450,6 +451,7 @@ client.urgent		    	$urgentred	$urgentred	$white		$yellowbrown	$yellowbrown
 #####################################
 bindsym $mod+d exec sh ~/.config/polybar/forest/scripts/launcher.sh
 bindsym $mod+e exec rofi -modi emoji -show emoji -theme ~/.config/polybar/forest/scripts/rofi/emoji.rasi
+bindsym $mod+c exec rofi -modi "clipboard:greenclip print" -show clipboard -run-command '{cmd}' -theme ~/.config/polybar/forest/scripts/rofi/clipboard.rasi 
 bindsym $mod+Shift+e exec sh ~/.config/polybar/forest/scripts/powermenu.sh
 
 # Polybar 
@@ -458,3 +460,5 @@ exec_always sh ~/.config/polybar/launch.sh --forest
 #copy config files to mega 
 exec rclone copy ~/.config/ rozanpoudelMEGA:/dotfiles --include "{i3/**,dunst/**,fish/**,lvim/**,rofi/**}" 
 exec rclone copy ~/Documents/ rozanpoudelMEGA:/Documents
+
+

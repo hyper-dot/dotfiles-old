@@ -29,6 +29,7 @@ window {
 	border-color:					@ac;
     border-radius:                  0px;
 	width:							200px;
+  height: 200px;
     location:                       center;
     x-offset:                       0;
     y-offset:                       0;
@@ -46,8 +47,10 @@ textbox-prompt-colon {
 	background-color: 				@bga;
 	text-color: 					@ac;
 	expand: false;
-	str: "";
+	str: "  Power Profiles";
 	font:							"JetBrainsMonoNL Nerd Font 10";
+  vertical-align: center;
+  horizontal-align: center;
 }
 
 entry {
@@ -57,7 +60,7 @@ entry {
     expand:                         true;
     horizontal-align:               0;
     placeholder:                    "Search...";
-	padding: 						0px 0px 0px 5px;
+	padding: 						0px 0px 0px 0px;
     blink:                          true;
 }
 
