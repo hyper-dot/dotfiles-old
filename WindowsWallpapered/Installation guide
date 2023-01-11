@@ -1,0 +1,42 @@
+Before installation first make sure you have the following packages installed :
+
+1.polybar
+2.rofi (for application menu and powermenu)
+3.dunst (for notification)
+4.flameshot (for screenshot) You can disable it in the i3 config if you dont want it !!
+
+Note: Please change the fonts to whateever you like in i3 config
+
+Fonts used in the bar : 
+
+
+Text Fonts:
+
+Iosevka Nerd Font
+Fantasque Sans Mono
+Noto Sans
+Droid Sans
+Terminus
+
+Icon Fonts:
+
+Iosevka Nerd Font
+Icomoon Feather
+Material Icons
+Waffle (Siji)
+
+
+Note: Before copying the files make sure they are executable !!
+To make them executable go to the directory where you have downloaded the files.
+Then open terminal there and run the following command:
+
+chmod +x ./polybar**
+
+Then follow these instructions
+
+Step 1 : Backup your i3,dunst(if exists), polybar(if exists) in ~/.config
+Step 2 : copy all the file and folders to your ~/.config folder except this installation guide.
+Step 3 : Now restart your pc
+
+
+

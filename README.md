@@ -12,3 +12,5 @@ Dotfiles collectioon of diffrent rice
 ## 3. Gruvbox greenish with borders
 ![](./Greenish_Gruvbox/greenish_screenshot.png)
 
+## 4. Windowed Wallpapered
+![](./WindowsWallpapered/screenshot.png)
