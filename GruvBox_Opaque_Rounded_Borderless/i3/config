@@ -304,7 +304,7 @@ assign [class="code-oss"] $ws3
 assign [class="vlc"] $ws4
 assign [class="Thunar"] $ws5
 assign [title="GNU Image Manipulation Program"] $ws5
-
+assign [class="qBittorrent"] $ws9
 # automatic set focus new window if it opens on another workspace then the current:
 for_window [class=Xfce4-terminal] focus
 for_window [class=Alacritty] focus
@@ -314,6 +314,7 @@ for_window [class=Brave-browser] focus
 for_window [class=Thunderbird] focus
 for_window [class=Code] focus
 for_window [class=vlc] focus
+for_window [class=qBittorrent] focus
 for_window [title="GNU Image Manipulation Program"] focus
 
 #############################################
