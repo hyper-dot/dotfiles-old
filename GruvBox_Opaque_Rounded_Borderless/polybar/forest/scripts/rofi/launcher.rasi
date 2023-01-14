@@ -35,9 +35,9 @@ window {
 }
 
 prompt {
-    enabled: 						true;
+  enabled: 						true;
 	padding: 						0px;
-	background-color: 				@bga;
+	background-color: 				@al;
 	text-color: 					@ac;
 	font:							"feather 12";
 }
@@ -55,10 +55,10 @@ entry {
 
 inputbar {
 	children: 						[ prompt, entry ];
-    background-color:               @bga;
+    background-color:               @al;
     text-color:                     @fg;
     expand:                         false;
-	border:							0px 0px 1px 0px;
+	/* border:							0px 0px 1px 0px; */
     border-radius:                  0px;
 	border-color:					@se;
     margin:                         0px;
@@ -113,7 +113,7 @@ element-text {
 element selected {
     background-color:               @se;
     text-color:                     @bg;
-	border:							0px 0px 0px 0px;
-    border-radius:                  0px;
+	  border:						0px 0px 0px 0px;
+    border-radius:                  5px;
     border-color:                  	@ac;
 }

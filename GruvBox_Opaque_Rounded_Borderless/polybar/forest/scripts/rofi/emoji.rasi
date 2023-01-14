@@ -28,7 +28,7 @@ window {
 	border:							0px 0px 0px 0px;
 	border-color:					@ac;
     border-radius:                  0px;
-	width:							400px;
+	width:							300px;
     location:                       center;
     x-offset:                       0;
     y-offset:                       0;
@@ -36,10 +36,18 @@ window {
 
 prompt {
     enabled: 						false;
-	padding: 						0px;
+	padding: 						0px 0px 0px 10px;
 	background-color: 				@bga;
+	text-color: 					@fg;
+}
+
+textbox-prompt-colon {
+	padding: 						0px;
+	background-color: 				@al;
 	text-color: 					@ac;
-	font:							"JetBrainsMonoNL Nerd Font 9";
+	expand: false;
+	str: "";
+	font:							"JetBrainsMonoNL Nerd Font 10";
 }
 
 entry {
@@ -54,11 +62,11 @@ entry {
 }
 
 inputbar {
-	children: 						[ prompt, entry ];
-    background-color:               @bga;
+	children: 						[ textbox-prompt-colon, entry ];
+    background-color:               @al;
     text-color:                     @fg;
     expand:                         false;
-	border:							0px 0px 1px 0px;
+	/* border:							0px 0px 1px 0px; */
     border-radius:                  0px;
 	border-color:					@se;
     margin:                         0px;
@@ -114,6 +122,6 @@ element selected {
     background-color:               @se;
     text-color:                     @bg;
 	border:							0px 0px 0px 0px;
-    border-radius:                  0px;
+    border-radius:                  5px;
     border-color:                  	@ac;
 }

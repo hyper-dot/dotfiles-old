@@ -35,15 +35,17 @@ window {
 }
 
 prompt {
-    enabled: 						true;
+    enabled: 						false;
 	padding: 						0px 0px 0px 10px;
-	background-color: 				@bga;
+	background-color: 				@al;
 	text-color: 					@fg;
+	font:							"JetBrainsMonoNL Nerd Font 9";
+
 }
 
 textbox-prompt-colon {
 	padding: 						0px;
-	background-color: 				@bga;
+	background-color: 				@al;
 	text-color: 					@ac;
 	expand: false;
 	str: "";
@@ -63,10 +65,10 @@ entry {
 
 inputbar {
 	children: 						[ textbox-prompt-colon, prompt ];
-    background-color:               @bga;
+    background-color:               @al;
     text-color:                     @fg;
     expand:                         false;
-	border:							0px 0px 1px 0px;
+	/* border:							0px 0px 1px 0px; */
     border-radius:                  0px;
 	border-color:					@se;
     margin:                         0px;
@@ -89,7 +91,7 @@ mainbox {
 	border:							0px;
     border-radius:                  0px;
 	border-color:					@ac;
-    children:                       [ inputbar, listview ];
+    children:                       [ listview ];
     spacing:                       	5px;
     padding:                        20px;
 }
@@ -122,6 +124,6 @@ element selected {
     background-color:               @se;
     text-color:                     @bg;
 	border:							0px 0px 0px 0px;
-    border-radius:                  0px;
+    border-radius:                  5px;
     border-color:                  	@ac;
 }

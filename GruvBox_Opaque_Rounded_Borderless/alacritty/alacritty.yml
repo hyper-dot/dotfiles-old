@@ -1,5 +1,5 @@
 import:
-  - ~/.alacritty-colorscheme/themes/gruvbox_dark.yaml
+  - ~/.alacritty-colorscheme/themes/pencil_dark.yaml
 
 window:
   padding:
@@ -18,7 +18,7 @@ scrolling:
 font:
   normal:
     family: JetBrains Mono Nerd Font
-    style:  Medium
+    style:  Bold
   bold:
     family: JetBrains Mono Nerd Font
     style:  Bold

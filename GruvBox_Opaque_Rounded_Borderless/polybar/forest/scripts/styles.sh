@@ -45,7 +45,7 @@ elif  [[ $1 = "--nord" ]]; then
 	SE="#88C0D0"
 	change_color
 elif  [[ $1 = "--gruvbox" ]]; then
-	BG="#282828"
+	BG="#1e1e1e"
 	FG="#EBDBB2"
 	BGA="#313131"
 	SEP="#505050"

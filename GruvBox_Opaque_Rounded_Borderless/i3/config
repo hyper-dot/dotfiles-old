@@ -305,6 +305,7 @@ assign [class="vlc"] $ws4
 assign [class="Thunar"] $ws5
 assign [title="GNU Image Manipulation Program"] $ws5
 assign [class="qBittorrent"] $ws9
+assign [class="discord"] $ws7
 # automatic set focus new window if it opens on another workspace then the current:
 for_window [class=Xfce4-terminal] focus
 for_window [class=Alacritty] focus
@@ -313,6 +314,7 @@ for_window [class=Thunar] focus
 for_window [class=Brave-browser] focus
 for_window [class=Thunderbird] focus
 for_window [class=Code] focus
+for_window [class=discord] focus
 for_window [class=vlc] focus
 for_window [class=qBittorrent] focus
 for_window [title="GNU Image Manipulation Program"] focus
@@ -459,7 +461,8 @@ bindsym $mod+Shift+e exec sh ~/.config/polybar/forest/scripts/powermenu.sh
 exec_always sh ~/.config/polybar/launch.sh --forest
 
 #copy config files to mega 
-exec rclone copy ~/.config/ rozanpoudelMEGA:/dotfiles --include "{i3/**,dunst/**,fish/**,lvim/**,rofi/**}" 
+exec rclone copy ~/.config/ rozanpoudelMEGA:/dotfiles --include "{i3/**,dunst/**,fish/**,lvim/**,rofi/**,picom.conf,polybar/**,alacritty/**, nvim/**}" 
+exec rclone copy ~/Pictures/ roshanpaudel003MEGA:/Pictures 
 exec rclone copy ~/Documents/ rozanpoudelMEGA:/Documents
 
 
