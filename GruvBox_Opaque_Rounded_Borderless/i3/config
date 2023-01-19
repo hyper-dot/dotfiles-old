@@ -181,15 +181,15 @@ bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
 
 # keybinding in fancy rofi (automated):
-bindsym F1 exec ~/.config/i3/scripts/keyhint-2
+# bindsym F1 exec ~/.config/i3/scripts/keyhint-2
 # alternative
 # keybinding list in editor:
 # bindsym $mod+F1 exec xed ~/.config/i3/keybindings
 
 # Backlight control
 
-bindsym XF86MonBrightnessUp exec xbacklight +5 && killall dunst && notify-send "Brightness - $(xbacklight -get | cut -c1-2)%"
-bindsym XF86MonBrightnessDown exec xbacklight -5 && killall dunst && notify-send "Brightness - $(xbacklight -get | cut -c1-2)%"
+bindsym XF86MonBrightnessUp exec xbacklight +5 && killall dunst && notify-send -i /usr/share/icons/Win11-blue-dark/status/22/notification-display-brightness.svg "Brightness : " "$(xbacklight -get | cut -c1-2)%"
+bindsym XF86MonBrightnessDown exec xbacklight -5 && killall dunst && notify-send -i /usr/share/icons/Win11-blue-dark/status/22/notification-display-brightness.svg "Brightness: " "$(xbacklight -get | cut -c1-2)%"
 # change focus 
 bindsym $mod+h focus left 
 bindsym $mod+j focus down 
@@ -403,6 +403,7 @@ for_window [class="Yad" instance="yad"] floating enable
 for_window [class="Galculator" instance="galculator"] floating enable
 for_window [class="Blueberry.py" instance="blueberry.py"] floating enable
 for_window [title="File Operation Progress"] floating enable
+for_window [class="simple_droidcam_client"] floating enable
 
 # set floating (nontiling) for special apps
 for_window [class="Xsane" instance="xsane"] floating enable
